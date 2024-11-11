@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-items {
+  padding: 0 20px;
+}
+
+.nav-items > ul {
+  display: flex;
+  font-size: 24px;
+  list-style-type: none;
+}
+
+.nav-items > ul > a {
+  padding: 10px;
+  margin: 10px;
+}
+
+.restro-card {
+  border: 1px #c0abab solid;
+  border-radius: 5px;
+  width: 200px;
+  background-color: #f3f3ec;
+  margin: 5px;
+  padding: 5px;
+}
+
+.restro-card:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.restro-logo {
+  width: 100%;
+}
+
+.restro-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.restro-api {
+  width: 300px;
+}
+
+.search {
+  padding: 5px;
+}
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
+}
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shimmer-card {
+  margin: 20px;
+  width: 200px;
+  height: 400px;
+  background-color: rgb(230, 224, 224);
+}
+.login {
+  margin: 10px;
+  cursor: pointer;
+}
+.filter {
+  display: flex;
+}
